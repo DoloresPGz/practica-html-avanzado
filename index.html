@@ -69,5 +69,67 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <!-- Resumen profesional -->
+         <!-- aria-labelledby apunta a un id de otro elemento cercano que ya contiene una
+          descripción -->
+        <section aria-labelledby="resumen-profesional-titulo">
+            <h2 id="resumen-profesional-titulo">Resumen profesional</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis quis quia commodi sunt error possimus animi. Sequi, dolor. Hic sint numquam quod amet. Non cumque ratione repudiandae itaque culpa!</p>
+        </section>
+        <!-- Habilidades y herramientas -->
+        <section aria-labelledby="habilidades-titulo">
+            <h2 id="habilidades-titulo">Habilidades y herramientas</h2>
+            <ul>
+                <li>HTM5</li>
+                <li>Control de versiones de Git y GitHub</li>
+                <li>Accessibilidad y SEO</li>
+            </ul>
+        </section>
+        <!-- Proyectos realizados -->
+         <section aria-labelledby="proyectos-titulo">
+            <h2 id="proyectos-titulo">Proyectos</h2>
+            <!-- Proyecto 1 -->
+            <article aria-label="Primer proyecto que es de un html semantico">
+                <header>
+                    <h3>Mi primer HTML semantico</h3>
+                    <p>
+                        <time datetime="2024-10">Octube 2024</time>
+                        <span>Tecnologías: HTML, Git, GitHub</span>
+                    </p>
+                    <p>Descripción: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nobis alias nostrum, porro officiis id minima unde officia provident aut aspernatur, ipsam doloribus. Cum, possimus. Hic voluptate perspiciatis omnis cumque?</p>
+                </header>
+                <figure>
+                    <img src="https://picsum.photos/seed/picsum/300/200" alt="Captura de pantalla de mi pagina de html semantico">
+                    <figcaption>Pantalla principal de mi html semantico</figcaption>
+                </figure>
+                <a href="https://github.com/DoloresPGz/frontend-ai-modulo-1/blob/main/clase-07-11-2024/ejercicio-1.html" target="_blank">Ver en Github</a>
+            </article>
+            <!-- Proyecto 2 -->
+            <article aria-label="Segundo proyecto que es de una receta de cocina">
+                <header>
+                    <h3>Mi receta de cocina</h3>
+                    <p>
+                        <time datetime="2024-11">Septiembre 2024</time>
+                        <span>Tecnologías: HTML, Git, GitHub</span>
+                    </p>
+                    <p>Descripción: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nobis alias nostrum, porro officiis id minima unde officia provident aut aspernatur, ipsam doloribus. Cum, possimus. Hic voluptate perspiciatis omnis cumque?</p>
+                </header>
+                <figure>
+                    <img src="https://picsum.photos/seed/picsum/350/200" alt="Captura de pantalla de mi receta de cocina">
+                    <figcaption>Pantalla principal de mi receta de cocina</figcaption>
+                </figure>
+                <a href="https://github.com/DoloresPGz/frontend-ai-modulo-1/blob/main/clase-29-10-2024/mi-primer-html.html" target="_blank">Ver en Github</a>
+            </article>
+         </section>
+         <aside aria-labelledby="contacto-titulo">
+            <h2 id="contacto-titulo">Contacto</h2>
+            <p>Si deseas discutir de un proyecto o colaboración, contáctame a:</p>
+            <address>
+                <p>Email <a href="mailto:correo@correo.com">correo@correo.com</a></p>
+            </address>
+            <p>55 55 55 55 55</p>
+         </aside>
+    </main>
 </body>
 </html>
